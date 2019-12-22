@@ -1,1 +1,67 @@
 
+Migrating to Cloud-Native application architecture
+NIST Definition special publication 800-145
+
+Architecting for DevOps aids in Continuous Delivery
+  adding some layer
+
+Think about full lifecycle architecture
+
+Architecture is abstract until it is operationalized
+
+Architecture that are not operationalized exist only on whiteboards
+
+Architecting for continuous delivery with Deployability and testability 
+
+Deployability 
+   Have our automated all of your deployment tasks?
+   Can you transform a brand new deployment environment into your running architecture without manual work?
+   Can your vary configuration across environments without rebuilding code?
+   Do you deploy like this everywhere?
+   Can you do this without your users noticing?
+   
+Testability
+   Have you automated all testing tasks that you possibly can?
+   Do you have to deploy all the things to test anything?
+   If testing is an experiment can you control everything except your experimental variable?
+   Can you run the same tests against any environment (including production)?
+   Can you verify that you continue to meet your contractual obligations?
+
+Cloud definition:
+   Any computing environment in which computing, networking, and storage resources 
+can be provisioned and released elastically in an on-demand, self-service manner
+  On-demand self-service
+  Broad network access
+  Resource pooling
+  Rapid elasticity
+  Measured service
+  
+  public cloud , private cloud, community cloud, hybird cloud
+  
+  API Driven 
+   Automation
+   Audit
+   Authorization
+   Accounting
+   
+  Speed
+   If you need, create it
+   
+Exploiting the capabilities of cloud can enhance our ability to practice DevOps and Continuous Delivery
+  Disposability
+    can i destroy a service instance at any time without consequence?
+    can i repave the entire architecture at any time without consequence?
+    can i repond to changes in demand by adding or removing instances of a service without consequence?
+  
+  Replaceability
+    can i replace a sick service instance with a brand new copy without consequence?
+    can i route traffic to any available service instance without consequence?
+    if i lose an AZ or region, can i route traffic to another without consequence?
+    can i swap between multiple implementations of the same service contract without consequence?
+    
+    
+    
+    
+
+   
+
