@@ -60,6 +60,12 @@ Exploiting the capabilities of cloud can enhance our ability to practice DevOps 
     can i swap between multiple implementations of the same service contract without consequence?
     
     
+Architectural Responsibilities
+   can make disposability impossible.
+   can make replaceability impossible.
+   must take charge of removing the consequences of disposing and replacing service instances
+    
+    
     
     
 
